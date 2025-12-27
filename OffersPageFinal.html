@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #333;
+    }
+
+
+    header {
+      background-color: #e60023;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+
+    .offers {
+      padding: 40px 20px;
+    }
+
+    .offers h2 {
+      text-align: center;
+      color: #e60023;
+      margin-bottom: 30px;
+    }
+
+    .offer-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .offer {
+      border: 2px dashed #e60023;
+      padding: 20px;
+      text-align: center;
+      background-color: #fff5f7;
+    }
+
+    .offer h3 {
+      margin-bottom: 10px;
+    }
+
+    .offer p {
+      margin-bottom: 8px;
+    }
+
+    
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+  
+    @media (max-width: 900px) {
+      .offer-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .offer-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <img src="minisobag.jpg" alt="MINISO Logo" width="40" height="40">
+    <strong>MINISO</strong>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ProductsPageFinal.html">Products</a>
+      <a href="#OffersPageFinal.html">Offers</a>
+      <a href="ContactsPageFinal.html">Contact</a>
+    </nav>
+  </header>
+
+  
+  <section class="offers">
+    <h2>Special Offers</h2>
+
+    <div class="offer-container">
+      <div class="offer">
+        <h3>Flat 30% OFF</h3>
+        <p>On Home Decor Items</p>
+        <p>Valid till: 31 Dec</p>
+      </div>
+
+      <div class="offer">
+        <h3>Buy 1 Get 1</h3>
+        <p>On Selected Stationery</p>
+        <p>Limited Period</p>
+      </div>
+
+      <div class="offer">
+        <h3>Up to 40% OFF</h3>
+        <p>On Beauty & Health Products</p>
+        <p>Festival Special</p>
+      </div>
+
+      <div class="offer">
+        <h3>Combo Offer</h3>
+        <p>Kitchen Essentials</p>
+        <p>Starting ?599</p>
+      </div>
+
+      <div class="offer">
+        <h3>Student Discount</h3>
+        <p>Extra 10% OFF</p>
+        <p>With College ID</p>
+      </div>
+
+      <div class="offer">
+        <h3>Clearance Sale</h3>
+        <p>Last Chance Deals</p>
+        <p>While Stock Lasts</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2025 MINISO | Offers Page</p>
+  </footer>
+
+</body>
+</html>
